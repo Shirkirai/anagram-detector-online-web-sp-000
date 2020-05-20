@@ -7,13 +7,7 @@ class Anagram
     @word.match
   end
 
-  def match(anagrams_array)
-    #iterate an array of anagrams
-    anagrams_array.each do |anagrams|
-      asplit = anagrams.split(" ")
-      @word = word.split(" ")
-      if asplit.sort == @word.sort
-        anagrams_array.detect{|anagram| anagram.split()}
+
     #iterate each word and sort them
     #sorted letters should equal the instance variable @word
     #if they match then return the matching anagram
