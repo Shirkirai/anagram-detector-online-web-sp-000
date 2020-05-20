@@ -13,7 +13,7 @@ class Anagram
       asplit = anagrams.split(" ")
       @word = word.split(" ")
       if asplit.sort == @word.sort
-
+        anagrams_array.detect{|anagram| anagram.split()}
     #iterate each word and sort them
     #sorted letters should equal the instance variable @word
     #if they match then return the matching anagram
@@ -21,6 +21,9 @@ class Anagram
     #once a word is sorted, and it matches the instance variable "word", then it's an anagram
     anagrams_array
 
+    def match(anagrams_array)
+      anagrams_array.detect do |anagram|
+        anagram.split(" ")
 
 
 
