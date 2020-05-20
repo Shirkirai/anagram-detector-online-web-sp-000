@@ -19,7 +19,6 @@ class Anagram
     #if they match then return the matching anagram
 
     #once a word is sorted, and it matches the instance variable "word", then it's an anagram
-    anagrams_array
 
     def match(anagrams_array)
       anagrams_array.detect do |anagram|
