@@ -16,7 +16,7 @@ class Anagram
 
   def match(anagrams_array)
     anagrams_array.select do |anagram|
-      anagram.join(", ")
+      anagram.join
     end
   end
 
