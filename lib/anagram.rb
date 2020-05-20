@@ -4,10 +4,11 @@ class Anagram
 
   def initialize(word)
     @word = word
+    @word.match
   end
 
-  def match(words)
-    words.split(" ")
+  def match(anagrams)
+    anagrams.
 
 
 
