@@ -23,7 +23,8 @@ class Anagram
 
     def match(anagrams_array)
       anagrams_array.detect do |anagram|
-        anagram.split(" ")
+        a = anagram.split(" ")
+
 
 
 
