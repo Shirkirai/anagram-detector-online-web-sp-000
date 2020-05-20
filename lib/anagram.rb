@@ -17,7 +17,7 @@ class Anagram
   def match(anagrams_array)
     anagrams_array.each do |anagram|
       if anagram.split(" ").sort == @word.split(" ").sort
-        return @word.split("")
+        return @word.split(" ")
       else
         []
       end
