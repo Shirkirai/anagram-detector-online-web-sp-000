@@ -18,7 +18,7 @@ class Anagram
     anagrams_array.each do |anagram|
       a = anagram.split(" ")
       if a.sort == @word.sort
-        return anagram
+        anagram
       else
         []
       end
