@@ -6,6 +6,9 @@ class Anagram
     match
   end
 
+  def match(words)
+    words.split(",")
+
 
 
 
