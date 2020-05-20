@@ -4,7 +4,7 @@ class Anagram
 
 
   def initialize(word)
-    @word.match
+    @word = word.split(" ")
   end
 
 
