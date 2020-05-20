@@ -18,7 +18,6 @@ class Anagram
     anagrams_array.select do |anagram|
       anagram.split("").sort
     end
-    end
   end
 
 
