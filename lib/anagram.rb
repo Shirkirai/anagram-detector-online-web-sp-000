@@ -20,7 +20,7 @@ class Anagram
 
 
 
-    
+
     anagrams_array.each do |anagram|
       if anagram.split("").sort == @word.split("").sort
         anagrams_array.select{|word| word.split("").sort == @word.split("").sort}
