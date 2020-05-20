@@ -17,9 +17,11 @@ class Anagram
   def match(anagrams_array)
     anagrams_array.detect do |anagram|
       a = anagram.split(" ")
-      
+
       if a.sort == @word.sort
         return anagram
+      else
+        []
       end
     end
   end
