@@ -10,7 +10,7 @@ class Anagram
   def match(anagrams_array)
     #iterate an array of anagrams
     anagrams_array.each do |anagrams|
-      asplit = anagrams.split(", ")
+      asplit = anagrams.split(" ")
       @word = word.split(" ")
       asplit.sort = @word.split
     #iterate each word and sort them
