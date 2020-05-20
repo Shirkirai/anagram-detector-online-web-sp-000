@@ -25,7 +25,7 @@ class Anagram
       anagrams_array.detect do |anagram|
         a = anagram.split(" ")
         w = @word.split(" ")
-        return anagram if a.sort == @word.
+        return anagram if a.sort == @word.sort
 
 
 
