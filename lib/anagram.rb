@@ -4,8 +4,7 @@ class Anagram
 
 
   def initialize(word)
-    @word = word
-    @word.each{|what| what}
+    @word = word.split("")
   end
 
 
