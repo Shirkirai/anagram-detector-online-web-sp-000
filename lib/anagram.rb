@@ -16,7 +16,11 @@ class Anagram
 
   def match(anagrams_array)
     anagrams_array.each do |anagram|
-      if anagram.split(" ")
+      if anagram.split(" ").sort == @word.split(" ").sort
+        return anagram
+      else
+        []
+      end
     end
   end
 
