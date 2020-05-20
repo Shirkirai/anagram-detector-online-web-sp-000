@@ -9,7 +9,7 @@ class Anagram
 
   def match(anagrams_array)
     #iterate an array of anagrams
-    anagrams_array.each do |words|
+    anagrams_array.each do |anagrams|
       words.each do |word|
         word.sort == 
     #iterate each word and sort them
