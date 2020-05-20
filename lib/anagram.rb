@@ -19,7 +19,7 @@ class Anagram
       a = anagram.split(" ")
 
       if a.sort == @word.sort
-        return %w(anagram)
+        return Array.new(anagram)
       else
         []
       end
