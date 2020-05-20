@@ -8,7 +8,13 @@ class Anagram
   end
 
   def match(anagrams_array)
-    anagrams_array.
+    #iterate an array of anagrams
+    anagrams_array.each do |words|
+      words.each do |word|
+        word.sort == 
+    #iterate each word and sort them
+    #once a word is sorted, and it matches the instance variable "word", then it's an anagram
+    anagrams_array
 
 
 
