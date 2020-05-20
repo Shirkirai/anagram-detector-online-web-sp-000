@@ -3,11 +3,11 @@ class Anagram
   attr_accessor :name
 
   def initialize(word)
-    match
+    @word = word
   end
 
   def match(words)
-    words.split(",")
+    words.split(" ")
 
 
 
