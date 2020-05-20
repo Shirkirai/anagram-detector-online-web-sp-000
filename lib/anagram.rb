@@ -16,7 +16,7 @@ class Anagram
 
   def match(anagrams_array)
     anagrams_array.select do |anagram|
-      anagram.split("")
+      anagram.split("").sort
     end
   end
 
