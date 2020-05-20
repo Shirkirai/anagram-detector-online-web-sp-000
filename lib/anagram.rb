@@ -12,7 +12,7 @@ class Anagram
       if !word.split("").sort == @word.split("").sort
         []
       end
-      return word
+      @word
     end
   end
 
