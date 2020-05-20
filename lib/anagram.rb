@@ -15,6 +15,8 @@ class Anagram
     #once a word is sorted, and it matches the instance variable "word", then it's an anagram
 
   def match(anagrams_array)
+    anagrams_array.each do |word|
+      word.split("")
     anagrams_array.select do |anagram|
       anagram.split("").sort
     end
