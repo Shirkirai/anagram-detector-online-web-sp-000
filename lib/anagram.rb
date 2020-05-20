@@ -17,8 +17,6 @@ class Anagram
   def match(anagrams_array)
     anagrams_array.each do |anagram|
       return anagram
-      else
-        []
       end
     end
   end
