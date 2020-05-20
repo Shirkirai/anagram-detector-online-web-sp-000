@@ -10,8 +10,7 @@ class Anagram
   def match(anagrams_array)
     #iterate an array of anagrams
     anagrams_array.each do |anagrams|
-      anagrams.each do |word|
-        word.sort ==
+      anagrams.split(", ")
     #iterate each word and sort them
     #once a word is sorted, and it matches the instance variable "word", then it's an anagram
     anagrams_array
