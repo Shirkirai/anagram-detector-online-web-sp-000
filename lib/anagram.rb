@@ -12,7 +12,7 @@ class Anagram
     anagrams_array.each do |anagrams|
       asplit = anagrams.split(" ")
       @word = word.split(" ")
-      asplit.sort = @word
+      if asplit.sort == @word
     #iterate each word and sort them
     #once a word is sorted, and it matches the instance variable "word", then it's an anagram
     anagrams_array
