@@ -18,7 +18,6 @@ class Anagram
     anagrams_array.each do |anagram|
       return anagram
     end
-    end
   end
 
 
